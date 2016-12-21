@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:tabBackground="@android:color/holo_green_light"
+        app:tabIndicatorColor="@android:color/holo_orange_light"
+        app:tabIndicatorHeight="5dp"
+
+        app:tabSelectedTextColor="@android:color/holo_red_light"
+        app:tabTextColor="@android:color/black" />
+    <!--tab背景颜色 直接用android：background也行-->
+    <!--tab下标颜色-->
+    <!--tab下标指示器高度-->
+    <!--app:tabMode="scrollable"-->
+    <!--tab标签可滑动-->
+    <!--tab被选中字体颜色-->
+    <!--tab字体颜色-->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <!--<android.support.design.widget.TextInputLayout-->
+        <!--android:id="@+id/text_input"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="20dp">-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/edit_text"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+
+    <!--</android.support.design.widget.TextInputLayout>-->
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/btn"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:src="@mipmap/ic_launcher"-->
+
+        <!--app:backgroundTint="#ff0000"-->
+        <!--app:elevation="5dp"-->
+        <!--app:fabSize="normal"-->
+        <!--app:rippleColor="#FF4081" />-->
+    <!--背景色-->
+    <!--背景与图标间隔-->
+    <!--按钮阴影-->
+    <!--按钮点击颜色变化效果-->
+
+
+</LinearLayout>
